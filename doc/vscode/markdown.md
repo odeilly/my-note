@@ -29,7 +29,7 @@ VSCodeによるMarkdown編集のメモです。
 
 ## 設定
 
-### settings.jsonの設定
+### settings.json
 
 ```json
 {
