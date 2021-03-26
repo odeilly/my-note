@@ -1,0 +1,17 @@
+{
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-preview-enhanced.breakOnSingleNewLine": true,
+    "markdownlint.config": {
+        "MD025": {
+            "front_matter_title": ""
+        },
+        "MD024": {
+            "siblings_only": true
+        },
+    },
+    "pasteImage.path": "${currentFileDir}/image",
+    "editor.fontFamily": "monospace, monospace",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+    },
+}
