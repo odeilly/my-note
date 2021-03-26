@@ -21,4 +21,4 @@ export_on_save:
 
 ---
 
-- [VSCode](vscod/vscode.html)
+- [VSCode](vscode/vscode.html)
