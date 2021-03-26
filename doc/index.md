@@ -15,6 +15,8 @@ export_on_save:
  html: true
 ---
 
+@import "less/common.less"
+
 # トップページ
 
 ---
