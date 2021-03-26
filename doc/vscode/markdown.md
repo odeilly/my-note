@@ -1,0 +1,52 @@
+---
+title: "Markdown"
+id: "my-doc"
+
+html:
+ embed_local_images: false
+ embed_svg: true
+ offline: false
+toc:
+ depth_from: 2
+ depth_to: 4
+ ordered: false
+print_background: false
+export_on_save:
+ html: true
+---
+
+<!-- @import "../less/common.less" -->
+
+# Markdown
+
+---
+
+VSCodeによるMarkdown編集のメモです。
+
+[toc]
+
+---
+
+## 設定
+
+### settings.jsonの設定
+
+```json
+{
+    "markdown-preview-enhanced.automaticallyShowPreviewOfMarkdownBeingEdited": true,
+    "markdown-preview-enhanced.breakOnSingleNewLine": true,
+    "markdownlint.config": {
+        "MD025": {
+            "front_matter_title": ""
+        },
+        "MD024": {
+            "siblings_only": true
+        },
+    },
+    "pasteImage.path": "${currentFileDir}/image",
+    "editor.fontFamily": "monospace, monospace",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true,
+    },
+}
+```
