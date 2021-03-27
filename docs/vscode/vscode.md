@@ -1,6 +1,6 @@
 ---
 title: "VSCode"
-id: "my-doc"
+id: "my-note"
 
 html:
  embed_local_images: false
