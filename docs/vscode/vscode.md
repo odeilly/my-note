@@ -19,6 +19,4 @@ export_on_save:
 
 # VSCode
 
----
-
 - [Markdown](markdown.html)

@@ -19,6 +19,4 @@ export_on_save:
 
 # Odeilly's Note
 
----
-
 - [VSCode](vscode/vscode.html)

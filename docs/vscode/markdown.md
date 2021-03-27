@@ -19,13 +19,9 @@ export_on_save:
 
 # Markdown
 
----
-
 VSCodeによるMarkdown編集のメモです。
 
 [toc]
-
----
 
 ## 設定
 
