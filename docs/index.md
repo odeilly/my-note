@@ -1,5 +1,5 @@
 ---
-title: "トップページ"
+title: "Odeilly's Note"
 id: "my-doc"
 
 html:
@@ -17,7 +17,7 @@ export_on_save:
 
 <!-- @import "less/common.less" -->
 
-# トップページ
+# Odeilly's Note
 
 ---
 
