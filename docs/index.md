@@ -20,3 +20,4 @@ export_on_save:
 # Odeilly's Note
 
 - [VSCode](vscode/vscode.html)
+- [Windows](windows/windows.html)
