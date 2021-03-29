@@ -19,7 +19,7 @@ export_on_save:
 
 # Windows
 
-Windowsに関すること。
+Windowsに関するメモ。
 
 ## 完全シャットダウン
 
