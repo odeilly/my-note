@@ -21,6 +21,8 @@ export_on_save:
 
 Windowsに関するメモ。
 
+[toc]
+
 ## 完全シャットダウン
 
 参考：<https://jp.ext.hp.com/techdevice/windows10sc/60/>
