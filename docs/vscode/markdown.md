@@ -46,3 +46,24 @@ VSCodeによるMarkdown編集のメモです。
     },
 }
 ```
+
+## PlantUMLを使う
+
+### Markdown Preview Enhanced
+
+VSCodeのExtensionsからインストールする。
+
+### Graphvizのインストール
+
+下記ページからダウンロードしてインストールする。
+[Graphvivダウンロード](http://www.graphviz.org/download/)
+
+### 使用例
+
+![PlantUMLサンプル](image/plantuml_sample.png)
+
+```puml
+@startuml
+Bob -> Alice : hello
+@enduml
+```
