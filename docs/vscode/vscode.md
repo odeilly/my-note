@@ -19,4 +19,5 @@ export_on_save:
 
 # VSCode
 
+- [基本操作](basic.html)
 - [Markdown](markdown.html)

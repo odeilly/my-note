@@ -19,8 +19,17 @@ export_on_save:
 
 # VSCodeの基本
 
+## 参考
+
+[Visual Studio Code - ショートカット一覧](https://murashun.jp/article/programming/visual-studio-code/shortcut-keys.html)
+
 ## 編集
 
 |                機能                 | キーボード |
 | ----------------------------------- | ---------- |
 | [Ctrl] + [Shift] + [Alt] + 矢印キー | 矩形選択   |
+
+## コードの折りたたみと展開
+
+- [Ctrl] + K, [Ctrl] + L
+  - 折り畳み/展開のトグル
