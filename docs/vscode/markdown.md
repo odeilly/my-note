@@ -60,10 +60,12 @@ VSCodeのExtensionsからインストールする。
 
 ### 使用例
 
-![PlantUMLサンプル](image/plantuml_sample.png)
+````markdown
+```puml
+Bob -> Alice : hello
+```
+````
 
 ```puml
-@startuml
 Bob -> Alice : hello
-@enduml
 ```
