@@ -62,6 +62,8 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "H
 
 ### 隠しフォルダの表示・非表示
 
+参考：<https://automationlabo.com/wat/?p=1861>
+
 コマンドプロンプトで、隠しファイルの表示・非表示を切り替えることが出来ます。
 
 - 隠しファイルを表示する
