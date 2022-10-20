@@ -39,3 +39,23 @@ Windowsに関するメモ。
    ![高速スタートアップを有効にする(推奨)](image/2021-03-29-15-58-47.png)
 
 4. 「変更の保存」をクリックする。
+
+## 便利なコマンド
+
+### 拡張子の表示・非表示
+
+参考：<https://win2012r2.com/2022/05/19/enable-file-extention-using-powershell/>
+
+コマンドプロンプトで、拡張子の表示・非表示を切り替えることが出来ます。
+
+- 拡張子を表示する
+
+``` {.cmd}
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "HideFileExt" /d "0" /t  REG_DWORD /f
+```
+
+- 拡張子を非表示にする
+
+``` {.cmd}
+ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "HideFileExt" /d "1" /t  REG_DWORD /f
+```
