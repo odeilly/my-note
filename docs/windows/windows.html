@@ -303,6 +303,7 @@ pre[data-line] .line-highlight[data-end]:after {
 <li><a href="#%E4%BE%BF%E5%88%A9%E3%81%AA%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">&#x4FBF;&#x5229;&#x306A;&#x30B3;&#x30DE;&#x30F3;&#x30C9;</a>
 <ul>
 <li><a href="#%E6%8B%A1%E5%BC%B5%E5%AD%90%E3%81%AE%E8%A1%A8%E7%A4%BA%E9%9D%9E%E8%A1%A8%E7%A4%BA">&#x62E1;&#x5F35;&#x5B50;&#x306E;&#x8868;&#x793A;&#x30FB;&#x975E;&#x8868;&#x793A;</a></li>
+<li><a href="#%E9%9A%A0%E3%81%97%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%81%AE%E8%A1%A8%E7%A4%BA%E9%9D%9E%E8%A1%A8%E7%A4%BA">&#x96A0;&#x3057;&#x30D5;&#x30A9;&#x30EB;&#x30C0;&#x306E;&#x8868;&#x793A;&#x30FB;&#x975E;&#x8868;&#x793A;</a></li>
 </ul>
 </li>
 </ul>
@@ -342,6 +343,17 @@ pre[data-line] .line-highlight[data-end]:after {
 <li>&#x62E1;&#x5F35;&#x5B50;&#x3092;&#x975E;&#x8868;&#x793A;&#x306B;&#x3059;&#x308B;</li>
 </ul>
 <pre data-role="codeBlock" data-info="{code_chunk_offset=1, .cmd}" class="language- cmd"><code> reg add &quot;HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced&quot; /v &quot;HideFileExt&quot; /d &quot;1&quot; /t  REG_DWORD /f
+</code></pre><h3 class="mume-header" id="%E9%9A%A0%E3%81%97%E3%83%95%E3%82%A9%E3%83%AB%E3%83%80%E3%81%AE%E8%A1%A8%E7%A4%BA%E9%9D%9E%E8%A1%A8%E7%A4%BA">&#x96A0;&#x3057;&#x30D5;&#x30A9;&#x30EB;&#x30C0;&#x306E;&#x8868;&#x793A;&#x30FB;&#x975E;&#x8868;&#x793A;</h3>
+
+<p>&#x30B3;&#x30DE;&#x30F3;&#x30C9;&#x30D7;&#x30ED;&#x30F3;&#x30D7;&#x30C8;&#x3067;&#x3001;&#x96A0;&#x3057;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x306E;&#x8868;&#x793A;&#x30FB;&#x975E;&#x8868;&#x793A;&#x3092;&#x5207;&#x308A;&#x66FF;&#x3048;&#x308B;&#x3053;&#x3068;&#x304C;&#x51FA;&#x6765;&#x307E;&#x3059;&#x3002;</p>
+<ul>
+<li>&#x96A0;&#x3057;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x8868;&#x793A;&#x3059;&#x308B;</li>
+</ul>
+<pre data-role="codeBlock" data-info="{code_chunk_offset=2, .cmd}" class="language- cmd"><code>reg add &quot;HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced&quot; /v &quot;Hidden&quot; /t REG_DWORD /d &quot;1&quot; /f
+</code></pre><ul>
+<li>&#x96A0;&#x3057;&#x30D5;&#x30A1;&#x30A4;&#x30EB;&#x3092;&#x8868;&#x793A;&#x306B;&#x3059;&#x308B;</li>
+</ul>
+<pre data-role="codeBlock" data-info="{code_chunk_offset=3, .cmd}" class="language- cmd"><code>reg add &quot;HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced&quot; /v &quot;Hidden&quot; /t REG_DWORD /d &quot;2&quot; /f
 </code></pre>
       </div>
       

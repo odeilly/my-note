@@ -59,3 +59,19 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "H
 ``` {.cmd}
  reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "HideFileExt" /d "1" /t  REG_DWORD /f
 ```
+
+### 隠しフォルダの表示・非表示
+
+コマンドプロンプトで、隠しファイルの表示・非表示を切り替えることが出来ます。
+
+- 隠しファイルを表示する
+
+``` {.cmd}
+reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "Hidden" /t REG_DWORD /d "1" /f
+```
+
+- 隠しファイルを表示にする
+
+``` {.cmd}
+reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "Hidden" /t REG_DWORD /d "2" /f
+```
