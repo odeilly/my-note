@@ -77,3 +77,17 @@ reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Ad
 ``` {.cmd}
 reg add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "Hidden" /t REG_DWORD /d "2" /f
 ```
+
+### 画面ロックまでの時間の設定
+
+参考：<https://4thsight.xyz/24367>
+
+コマンドプロンプトを管理者権限で起動します。
+`/d` オプションでロックされるまでの待機時間 (秒) を設定します。
+以下のコマンドでは、300秒 (5分) を指定しています。
+
+``` {.cmd}
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" /v InactivityTimeoutSecs /t REG_DWORD /d 300 /f
+```
+
+コマンド実行後、Windows の再起動が必要です。
