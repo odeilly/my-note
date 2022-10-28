@@ -91,3 +91,27 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\S
 ```
 
 コマンド実行後、Windows の再起動が必要です。
+
+### wmic コマンド
+
+wmic コマンドを使うと、PC の情報を表示することが出来ます。
+
+- 参考
+  - <https://www.intel.co.jp/content/www/jp/ja/support/articles/000025060/intel-nuc.html>
+  - <https://genchan.net/it/pc/windows/12535/>
+
+#### PC のシリアル番号
+
+``` {.cmd}
+wmic bios get serialnumber
+```
+
+``` {.cmd}
+wmic csproduct get identifyingnumber
+```
+
+#### PC の製品名
+
+``` {.cmd}
+wmic baseboard get product
+```
