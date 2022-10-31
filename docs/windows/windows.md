@@ -175,7 +175,7 @@ net user <アカウント名> <パスワード>
 コマンドプロンプトを管理者で起動します。
 
 ``` {.cmd}
-net local group administrators <アカウント名> /add
+net localgroup administrators <アカウント名> /add
 ```
 
 #### アカウントの削除
