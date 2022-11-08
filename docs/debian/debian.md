@@ -39,3 +39,14 @@ XKBOPTIONS="ctrl:nocaps" # CapsLock を Ctrl に変更する
 ``` sh
 sudo dpkg-reconfigure -phigh console-setup
 ```
+
+### Google Chrome のインストール
+
+deb パッケージをダウンロードして、apt-get コマンドでインストールします。
+相対パスまたは絶対パスで deb ファイルを指定します。
+
+``` sh
+sudo apt-get install ./google-chrome-stable_current_amd64.deb
+```
+
+`google-chrome` というコマンドで Google Chrome を起動できます。
