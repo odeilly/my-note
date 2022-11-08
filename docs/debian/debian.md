@@ -19,6 +19,8 @@ export_on_save:
 
 # Debian GNU/Linux
 
+[toc]
+
 ## キーボード設定
 
 ### CapsLock を Ctrl にする
